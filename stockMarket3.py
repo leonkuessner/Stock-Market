@@ -21,10 +21,8 @@ ti = TechIndicators(key=api_key, output_format="pandas")
 
 ############# Let User Choose Stock and Timeframe  #############
 
-# ticker_input = input("Ticker: ")
-ticker_input = "BA"
-timeframe = "5 days"
-# timeframe = input("Timeframe (1 day/5 days/1 month/3 months/1 year/5 years/max)")
+ticker_input = input("Ticker: ")
+timeframe = input("Timeframe (1 day/5 days/1 month/3 months/1 year/5 years/max)")
 
 
 if timeframe == "1 day":
